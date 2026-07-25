@@ -1,6 +1,6 @@
 ## Local Kubernetes Cluster with KIND
 
-Spin up a multi-node Kubernetes cluster locally using KIND (Kubernetes IN Docker) — no cloud provider required.
+Spin up a multi-node Kubernetes cluster locally using KIND (Kubernetes IN Docker) no cloud provider required.
 
 ### Prerequisites
 
