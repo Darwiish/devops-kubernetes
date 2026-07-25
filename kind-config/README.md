@@ -58,7 +58,7 @@ k8s-demo-worker          Ready    <none>          ...   v1.36.1
 k8s-demo-worker2         Ready    <none>          ...   v1.36.1
 ```
 
-### 5. Test deployment — nginx
+### 5. Test deployment nginx
 
 ```bash
 kubectl create deployment nginx --image=nginx
