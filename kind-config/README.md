@@ -58,7 +58,7 @@ k8s-demo-worker          Ready    <none>          ...   v1.36.1
 k8s-demo-worker2         Ready    <none>          ...   v1.36.1
 ```
 
-### 5. Smoke test — deploy nginx
+### 5. Test deployment — nginx
 
 ```bash
 kubectl create deployment nginx --image=nginx
@@ -79,7 +79,3 @@ Then open `http://localhost:8080`.
 ```bash
 kind delete cluster --name k8s-demo
 ```
-
-### Notes
-
-WSL2 + Docker Desktop credential helper bug: if `kind create cluster` fails with `docker-credential-desktop.exe: exec format error`, remove `credsStore` from `~/.docker/config.json`. The `kubectl` binary and KIND kubeconfigs are gitignored; only the cluster config YAML is tracked.
